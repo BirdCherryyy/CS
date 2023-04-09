@@ -3,3 +3,14 @@
 /QuestLib/bin/
 /QuestLib/obj/
 *.cache
+/obj/
+/bin/
+QuestConsole/bin/Debug/net7.0/QuestConsole.dll
+QuestConsole/bin/Debug/net7.0/QuestConsole.pdb
+QuestConsole/obj/Debug/net7.0/QuestConsole.assets.cache
+QuestConsole/obj/Debug/net7.0/QuestConsole.csproj.AssemblyReference.cache
+QuestConsole/obj/Debug/net7.0/QuestConsole.dll
+QuestConsole/obj/Debug/net7.0/QuestConsole.GeneratedMSBuildEditorConfig.editorconfig
+QuestConsole/obj/Debug/net7.0/QuestConsole.pdb
+QuestLib/obj/Debug/net7.0/QuestLib.assets.cache
+QuestLib/obj/Debug/net7.0/QuestLib.GeneratedMSBuildEditorConfig.editorconfig
