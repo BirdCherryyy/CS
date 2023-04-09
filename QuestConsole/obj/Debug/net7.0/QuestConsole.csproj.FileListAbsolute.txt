@@ -13,3 +13,6 @@ D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\refint\QuestConsole
 D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.pdb
 D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.genruntimeconfig.cache
 D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\ref\QuestConsole.dll
+D:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\QuestLib.dll
+D:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\QuestLib.pdb
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.csproj.CopyComplete

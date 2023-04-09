@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "QuestConsole/1.0.0": {
+        "dependencies": {
+          "QuestLib": "1.0.0"
+        },
         "runtime": {
           "QuestConsole.dll": {}
+        }
+      },
+      "QuestLib/1.0.0": {
+        "runtime": {
+          "QuestLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "QuestConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "QuestLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

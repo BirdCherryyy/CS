@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "QuestLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/QuestLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuestLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "QuestLib/1.0.0": {
+      "type": "project",
+      "path": "../QuestLib/QuestLib.csproj",
+      "msbuildProject": "../QuestLib/QuestLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "QuestLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyPrograms\\csharp\\questions\\QuestLib\\QuestLib.csproj": {
+              "projectPath": "D:\\MyPrograms\\csharp\\questions\\QuestLib\\QuestLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
