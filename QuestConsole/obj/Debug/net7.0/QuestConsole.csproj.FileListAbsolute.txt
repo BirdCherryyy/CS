@@ -1,0 +1,15 @@
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.csproj.AssemblyReference.cache
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.AssemblyInfoInputs.cache
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.AssemblyInfo.cs
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.csproj.CoreCompileInputs.cache
+D:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\QuestConsole.exe
+D:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\QuestConsole.deps.json
+D:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\QuestConsole.runtimeconfig.json
+D:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\QuestConsole.dll
+D:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\QuestConsole.pdb
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.dll
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\refint\QuestConsole.dll
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.pdb
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\QuestConsole.genruntimeconfig.cache
+D:\MyPrograms\csharp\questions\QuestConsole\obj\Debug\net7.0\ref\QuestConsole.dll
