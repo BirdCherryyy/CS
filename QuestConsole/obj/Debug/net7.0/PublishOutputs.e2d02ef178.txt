@@ -1,0 +1,7 @@
+d:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\publish\QuestConsole.exe
+d:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\publish\QuestConsole.dll
+d:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\publish\QuestConsole.deps.json
+d:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\publish\QuestConsole.runtimeconfig.json
+d:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\publish\QuestConsole.pdb
+d:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\publish\QuestLib.dll
+d:\MyPrograms\csharp\questions\QuestConsole\bin\Debug\net7.0\publish\QuestLib.pdb

@@ -1,0 +1,5 @@
+D:\MyPrograms\csharp\questions\obj\Debug\net7.0\questions.csproj.AssemblyReference.cache
+D:\MyPrograms\csharp\questions\obj\Debug\net7.0\questions.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyPrograms\csharp\questions\obj\Debug\net7.0\questions.AssemblyInfoInputs.cache
+D:\MyPrograms\csharp\questions\obj\Debug\net7.0\questions.AssemblyInfo.cs
+D:\MyPrograms\csharp\questions\obj\Debug\net7.0\questions.csproj.CoreCompileInputs.cache
