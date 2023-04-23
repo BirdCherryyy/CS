@@ -9,16 +9,16 @@ namespace Questions.QuesrConsole
         
         static void Main(string[] args)
         {
-            Theme theme = new Theme();
+ //           Theme theme = new Theme();
 
-            Quest quest1 = new Quest("Кто написал произведение горе от ума?","Грибоедов","people");
-            Quest quest2 = new Quest("Кто открыл атмосферное давление?","Паскаль","people");
-            Quest quest3 = new Quest("Кто гавкает?","Собака","animal");
-            Quest quest4 = new Quest("Кто мяукает?","Котенок","animal");
-            quest1.ask(theme);
-            quest2.ask(theme);
-            quest3.ask(theme);
-            quest4.ask(theme);
+            var quest1 = new Quest("Кто написал произведение горе от ума?","Грибоедов","people");
+            var quest2 = new Quest("Кто открыл атмосферное давление?","Паскаль","people");
+            var quest3 = new Quest("Кто гавкает?","Собака","animal");
+            var quest4 = new Quest("Кто мяукает?","Котенок","animal");
+            quest1.ask();
+            quest2.ask();
+            quest3.ask();
+            quest4.ask();
         }
     }
 }
