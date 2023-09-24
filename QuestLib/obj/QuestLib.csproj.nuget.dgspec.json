@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {}
+    "e:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {}
   },
   "projects": {
-    "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {
+    "e:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj",
+        "projectUniqueName": "e:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj",
         "projectName": "QuestLib",
-        "projectPath": "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj",
+        "projectPath": "e:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "E:\\MyPrograms\\CS\\QuestLib\\obj\\",
+        "outputPath": "e:\\MyPrograms\\CS\\QuestLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

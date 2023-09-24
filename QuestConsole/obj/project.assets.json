@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyPrograms\\CS\\QuestConsole\\QuestConsole.csproj",
+      "projectUniqueName": "e:\\MyPrograms\\CS\\QuestConsole\\QuestConsole.csproj",
       "projectName": "QuestConsole",
-      "projectPath": "E:\\MyPrograms\\CS\\QuestConsole\\QuestConsole.csproj",
+      "projectPath": "e:\\MyPrograms\\CS\\QuestConsole\\QuestConsole.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "E:\\MyPrograms\\CS\\QuestConsole\\obj\\",
+      "outputPath": "e:\\MyPrograms\\CS\\QuestConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {
-              "projectPath": "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj"
+            "e:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {
+              "projectPath": "e:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj"
             }
           }
         }
