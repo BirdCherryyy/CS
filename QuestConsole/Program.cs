@@ -9,22 +9,31 @@ namespace Questions.QuesrConsole
         
         static void Main(string[] args)
         {
- //           Theme theme = new Theme();
+            var Quest1 = new Quest("Кто мяукает?", "Кот");
+            string[] arrStr = {"Собака", "Корова", "Пингвин", "Кот"};
 
-            var quest1 = new Quest("Кто написал произведение горе от ума?","Грибоедов","people");
-            var quest2 = new Quest("Кто открыл атмосферное давление?","Паскаль","people");
-            var quest3 = new Quest("Кто гавкает?","Собака","animal");
-            var quest4 = new Quest("Кто мяукает?","Котенок","animal");
-            quest1.ask();
-            quest2.ask();
-            quest3.ask();
-            quest4.ask();
+            for (int i = 0; i < arrStr.Length; i++)
+            {
+                Console.WriteLine($"{i+1}) {arrStr[i]}");
+            }
+            Console.Write("Введите вариант ответа:  от 1 до 4\n");
+
+            string? val = Console.ReadLine();
+            if(Convert.ToInt32(val) >= 1 & Convert.ToInt32(val) <= 4)
+            {
+                if (Quest1.CheckAnswer(arrStr[Convert.ToInt32(val)-1]))
+                {
+                    Console.Write("Правильно");
+                }
+                else
+                {
+                    Console.Write("Неправильно");
+                }
+
+            }
+            else Console.Write("Ввели неправильное число");
+
+                Console.ReadLine();
         }
     }
 }
-//TODO Сделать массив классов
-//TODO распределить по темам
-//TODO добавить проверки на все возможные ошибки
-//TODO добавить темы и автозанесение ответов выполненных вопрос в общий массив вопросов
-//TODO добавить пользовательский интерфейс
-//Test git ignore

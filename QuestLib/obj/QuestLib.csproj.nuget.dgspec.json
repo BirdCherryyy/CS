@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyPrograms\\csharp\\questions\\QuestLib\\QuestLib.csproj": {}
+    "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {}
   },
   "projects": {
-    "D:\\MyPrograms\\csharp\\questions\\QuestLib\\QuestLib.csproj": {
+    "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyPrograms\\csharp\\questions\\QuestLib\\QuestLib.csproj",
+        "projectUniqueName": "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj",
         "projectName": "QuestLib",
-        "projectPath": "D:\\MyPrograms\\csharp\\questions\\QuestLib\\QuestLib.csproj",
+        "projectPath": "E:\\MyPrograms\\CS\\QuestLib\\QuestLib.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\MyPrograms\\csharp\\questions\\QuestLib\\obj\\",
+        "outputPath": "E:\\MyPrograms\\CS\\QuestLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
