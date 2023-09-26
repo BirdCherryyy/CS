@@ -11,7 +11,19 @@ namespace Questions.QuesrConsole
         {
             var Quest1 = new Quest("Кто мяукает?", "Кот");
             string[] arrStr = {"Собака", "Корова", "Пингвин", "Кот"};
+            Console.Write($"Вопрос: {Quest1.GetQuest()} \nВведите ответ: ");
+            string? userAnswer = Console.ReadLine();
+            if (Quest1.CheckAnswer(userAnswer))
+            {
+                Console.WriteLine("Верно!");
+            }
+            else
+            {
+                Console.WriteLine("Неверно!");
+            }
 
+            
+/*
             for (int i = 0; i < arrStr.Length; i++)
             {
                 Console.WriteLine($"{i+1}) {arrStr[i]}");
@@ -32,7 +44,7 @@ namespace Questions.QuesrConsole
 
             }
             else Console.Write("Ввели неправильное число");
-
+                */
                 Console.ReadLine();
         }
     }

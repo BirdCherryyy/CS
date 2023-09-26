@@ -9,14 +9,13 @@ public class Quest
     {
         return _quest;
     }
-    public bool CheckAnswer(string answer)
+    public virtual bool CheckAnswer(string? userAnswer)
     {
-        if (answer == _answer) return true;
-        else return false;
+        return userAnswer == _answer;
     }
-    public Quest(string quest, string answer)
+    public Quest(string userQuest, string userAnswer)
     {
-        _quest = quest;
-        _answer = answer;
+        _quest = userQuest;
+        _answer = userAnswer;
     }
 }
