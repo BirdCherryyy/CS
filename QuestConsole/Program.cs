@@ -1,30 +1,20 @@
 ﻿using System;
 using Questions.QuestLib;
-// See https://aka.ms/new-console-template for more information
 
 namespace Questions.QuesrConsole
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
             var Quest1 = new Quest("Кто мяукает?", "Кот");
             Console.Write($"Вопрос: {Quest1.GetQuest()} \nВведите ответ: ");
-            string? userAnswer = Console.ReadLine();
-
-            if (Quest1.CheckAnswer(userAnswer))
-            {
-                Console.WriteLine("Верно!");
-            }
-            else
-            {
-                Console.WriteLine("Неверно!");
-            }
-           Console.ReadLine();
+            //OutQuest(Quest1);
+            OutResult(Quest1);
 
             string[] wrongAnswers = {"Кот", "Корова", "Утка"};
             string[] variantAnswers;
+            
             var Quest2 = new QizQuest("Кто лает?", "Собака", wrongAnswers);
             variantAnswers = Quest2.GetVariantOfAnswers();
 
@@ -34,42 +24,46 @@ namespace Questions.QuesrConsole
                 Console.Write($"{i+1}) {variantAnswers[i]}\n");
             }
             Console.WriteLine("Введите номер правильного ответа: ");
+            
+            //OutQuest(Quest2);
+            OutResult(Quest2);
 
-            userAnswer = Console.ReadLine();
-
-            if (Quest2.CheckAnswer(userAnswer))
+            static void OutResult(Quest Q)
             {
-                Console.WriteLine("Верно!");
-            }
-            else
-            {
-                Console.WriteLine("Неверно!");
-            }
-
-            Console.ReadLine();
-/*
-            for (int i = 0; i < arrStr.Length; i++)
-            {
-                Console.WriteLine($"{i+1}) {arrStr[i]}");
-            }
-            Console.Write("Введите вариант ответа:  от 1 до 4\n");
-
-            string? val = Console.ReadLine();
-            if(Convert.ToInt32(val) >= 1 & Convert.ToInt32(val) <= 4)
-            {
-                if (Quest1.CheckAnswer(arrStr[Convert.ToInt32(val)-1]))
+                string? userAnswer = Console.ReadLine();
+                if (Q.CheckAnswer(userAnswer))
                 {
-                    Console.Write("Правильно");
+                    Console.WriteLine("Верно!");
                 }
                 else
                 {
-                    Console.Write("Неправильно");
+                    Console.WriteLine("Неверно!");
                 }
-
+                Console.ReadLine();
+                return;
             }
-            else Console.Write("Ввели неправильное число");
-                */
+/*
+            static void OutQuest(Quest Q)
+            {
+                if (!typeof(Quest).IsSubclassOf(typeof(Quest)))
+                {
+                    Console.Write($"Вопрос: {Q.GetQuest()} \nВведите ответ: ");
+                    return;
+                }
+                string[] wrongAnswers = {"Кот", "Корова", "Утка"};
+                string[] variantAnswers;
+                variantAnswers = Q.GetVariantOfAnswers();
+                Console.Write($"Вопрос: {Q.GetQuest()} \n Варианты ответов:\n");
+                for (int i = 0; i < variantAnswers.Length; i++)
+                {
+                    Console.Write($"{i+1}) {variantAnswers[i]}\n");
+                }
+                Console.WriteLine("Введите номер правильного ответа: ");
+                return;
 
+            } 
+            */
         }
     }
+
 }

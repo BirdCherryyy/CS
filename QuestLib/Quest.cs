@@ -4,8 +4,8 @@ using System.Security.Cryptography.X509Certificates;
 namespace Questions.QuestLib;
 public class Quest
 {
-    private string _quest = "none";
-    private string _answer = "none";
+    private string _quest;
+    private string _answer;
     public string GetQuest()
     {
         return _quest;
@@ -14,9 +14,9 @@ public class Quest
     {
         return userAnswer == _answer;
     }
-    public Quest(string userQuest, string userAnswer)
+    public Quest(string initQuest, string initAnswer)
     {
-        _quest = userQuest;
-        _answer = userAnswer;
+        _quest = initQuest;
+        _answer = initAnswer;
     }
 }

@@ -18,7 +18,7 @@ public class QizQuest: Quest
         {
             if (userAnswer == null || userAnswer.Length == 0)
             {
-                userAnswer = "10";
+                return false;
             }
             return base.CheckAnswer(_listAnswers[int.Parse(userAnswer)-1]);
         }
@@ -27,10 +27,10 @@ public class QizQuest: Quest
             Random rnd = new Random();
             for (int i = 0; i < _listAnswers.Count; i++)
             {
-                int j = rnd.Next(_listAnswers.Count);
+                int rand = rnd.Next(_listAnswers.Count);
                 string temp = _listAnswers[i]; 
-                _listAnswers[i] = _listAnswers[j];
-                _listAnswers[j] = temp;
+                _listAnswers[i] = _listAnswers[rand];
+                _listAnswers[rand] = temp;
             }
         }
         public string[] GetVariantOfAnswers()
